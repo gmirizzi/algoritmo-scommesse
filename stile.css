@@ -1,0 +1,26 @@
+:root {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('https://www.gamblingsites.org/wp-content/uploads/2019/09/soccer-betting.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: lawngreen;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 3em;
+}
+
+.team{
+    display: flex;
+    flex-direction: column;
+}
+
+.team input {
+    width: 30px;
+}
+
+#btn {
+    margin-top: 2em;
+}

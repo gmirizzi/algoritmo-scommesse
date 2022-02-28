@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stile.css">
+    <title>L'algoritmo delle scommesse</title>
+</head>
+<body>
+    <h1>L'ALGORITMO</h1>
+    <p>Inserisci i dati statistici delle due squadre che si affronteranno e l'algoritmo genererà l'esito della scommessa</p>
+    <div class="team">
+        <h2>Squadra casa</h2>
+        <label for="vc">Vittorie:</label>
+        <input id="vc" type="number">
+        <label for="nc">Pareggi:</label>
+        <input id="nc" type="number">
+        <label for="pc">Sconfitte:</label>
+        <input id="pc" type="number">
+    </div>
+    <div class="team">
+        <h2>Squadra trasferta</h2>
+        <label for="vt">Vittorie:</label>
+        <input id="vt" type="number">
+        <label for="nt">Pareggi:</label>
+        <input id="nt" type="number">
+        <label for="pt">Sconfitte:</label>
+        <input id="pt" type="number">
+    </div>
+    <input id='btn' type="submit">
+    <h2>Risultato</h2>
+    <div id="risultato"></div>
+    <script src="script.js"></script>
+</body>
+</html>
